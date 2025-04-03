@@ -1,4 +1,4 @@
-# Contents
+# Content
 
 * Authors and contributors
 * Intorduction
