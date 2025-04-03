@@ -1,0 +1,28 @@
+D:\Education\Bachelor's project work (Software testing)\Program\FaultLocalizationNN\FaultLocalizationNN\FaultLocalizationNN\obj\Debug\net6.0\FaultLocalizationNN.GeneratedMSBuildEditorConfig.editorconfig
+D:\Education\Bachelor's project work (Software testing)\Program\FaultLocalizationNN\FaultLocalizationNN\FaultLocalizationNN\obj\Debug\net6.0\FaultLocalizationNN.AssemblyInfoInputs.cache
+D:\Education\Bachelor's project work (Software testing)\Program\FaultLocalizationNN\FaultLocalizationNN\FaultLocalizationNN\obj\Debug\net6.0\FaultLocalizationNN.AssemblyInfo.cs
+D:\Education\Bachelor's project work (Software testing)\Program\FaultLocalizationNN\FaultLocalizationNN\FaultLocalizationNN\obj\Debug\net6.0\FaultLocalizationNN.csproj.CoreCompileInputs.cache
+D:\Education\Bachelor's project work (Software testing)\Program\FaultLocalizationNN\FaultLocalizationNN\FaultLocalizationNN\bin\Debug\net6.0\FaultLocalizationNN.exe
+D:\Education\Bachelor's project work (Software testing)\Program\FaultLocalizationNN\FaultLocalizationNN\FaultLocalizationNN\bin\Debug\net6.0\FaultLocalizationNN.deps.json
+D:\Education\Bachelor's project work (Software testing)\Program\FaultLocalizationNN\FaultLocalizationNN\FaultLocalizationNN\bin\Debug\net6.0\FaultLocalizationNN.runtimeconfig.json
+D:\Education\Bachelor's project work (Software testing)\Program\FaultLocalizationNN\FaultLocalizationNN\FaultLocalizationNN\bin\Debug\net6.0\FaultLocalizationNN.dll
+D:\Education\Bachelor's project work (Software testing)\Program\FaultLocalizationNN\FaultLocalizationNN\FaultLocalizationNN\bin\Debug\net6.0\FaultLocalizationNN.pdb
+D:\Education\Bachelor's project work (Software testing)\Program\FaultLocalizationNN\FaultLocalizationNN\FaultLocalizationNN\obj\Debug\net6.0\FaultLocalizationNN.dll
+D:\Education\Bachelor's project work (Software testing)\Program\FaultLocalizationNN\FaultLocalizationNN\FaultLocalizationNN\obj\Debug\net6.0\refint\FaultLocalizationNN.dll
+D:\Education\Bachelor's project work (Software testing)\Program\FaultLocalizationNN\FaultLocalizationNN\FaultLocalizationNN\obj\Debug\net6.0\FaultLocalizationNN.pdb
+D:\Education\Bachelor's project work (Software testing)\Program\FaultLocalizationNN\FaultLocalizationNN\FaultLocalizationNN\obj\Debug\net6.0\FaultLocalizationNN.genruntimeconfig.cache
+D:\Education\Bachelor's project work (Software testing)\Program\FaultLocalizationNN\FaultLocalizationNN\FaultLocalizationNN\obj\Debug\net6.0\ref\FaultLocalizationNN.dll
+D:\Education\Bachelor's project work (Software testing)\Program\Fault localization\FaultLocalizationNN\FaultLocalizationNN\FaultLocalizationNN\bin\Debug\net6.0\FaultLocalizationNN.exe
+D:\Education\Bachelor's project work (Software testing)\Program\Fault localization\FaultLocalizationNN\FaultLocalizationNN\FaultLocalizationNN\bin\Debug\net6.0\FaultLocalizationNN.deps.json
+D:\Education\Bachelor's project work (Software testing)\Program\Fault localization\FaultLocalizationNN\FaultLocalizationNN\FaultLocalizationNN\bin\Debug\net6.0\FaultLocalizationNN.runtimeconfig.json
+D:\Education\Bachelor's project work (Software testing)\Program\Fault localization\FaultLocalizationNN\FaultLocalizationNN\FaultLocalizationNN\bin\Debug\net6.0\FaultLocalizationNN.dll
+D:\Education\Bachelor's project work (Software testing)\Program\Fault localization\FaultLocalizationNN\FaultLocalizationNN\FaultLocalizationNN\bin\Debug\net6.0\FaultLocalizationNN.pdb
+D:\Education\Bachelor's project work (Software testing)\Program\Fault localization\FaultLocalizationNN\FaultLocalizationNN\FaultLocalizationNN\obj\Debug\net6.0\FaultLocalizationNN.GeneratedMSBuildEditorConfig.editorconfig
+D:\Education\Bachelor's project work (Software testing)\Program\Fault localization\FaultLocalizationNN\FaultLocalizationNN\FaultLocalizationNN\obj\Debug\net6.0\FaultLocalizationNN.AssemblyInfoInputs.cache
+D:\Education\Bachelor's project work (Software testing)\Program\Fault localization\FaultLocalizationNN\FaultLocalizationNN\FaultLocalizationNN\obj\Debug\net6.0\FaultLocalizationNN.AssemblyInfo.cs
+D:\Education\Bachelor's project work (Software testing)\Program\Fault localization\FaultLocalizationNN\FaultLocalizationNN\FaultLocalizationNN\obj\Debug\net6.0\FaultLocalizationNN.csproj.CoreCompileInputs.cache
+D:\Education\Bachelor's project work (Software testing)\Program\Fault localization\FaultLocalizationNN\FaultLocalizationNN\FaultLocalizationNN\obj\Debug\net6.0\FaultLocalizationNN.dll
+D:\Education\Bachelor's project work (Software testing)\Program\Fault localization\FaultLocalizationNN\FaultLocalizationNN\FaultLocalizationNN\obj\Debug\net6.0\refint\FaultLocalizationNN.dll
+D:\Education\Bachelor's project work (Software testing)\Program\Fault localization\FaultLocalizationNN\FaultLocalizationNN\FaultLocalizationNN\obj\Debug\net6.0\FaultLocalizationNN.pdb
+D:\Education\Bachelor's project work (Software testing)\Program\Fault localization\FaultLocalizationNN\FaultLocalizationNN\FaultLocalizationNN\obj\Debug\net6.0\FaultLocalizationNN.genruntimeconfig.cache
+D:\Education\Bachelor's project work (Software testing)\Program\Fault localization\FaultLocalizationNN\FaultLocalizationNN\FaultLocalizationNN\obj\Debug\net6.0\ref\FaultLocalizationNN.dll

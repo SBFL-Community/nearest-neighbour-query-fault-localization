@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "FaultLocalizationNN": {
+      "commandName": "Project",
+      "commandLineArgs": "-b"
+    }
+  }
+}

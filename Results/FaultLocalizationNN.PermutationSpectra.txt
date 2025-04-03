@@ -1,0 +1,586 @@
+Fault localization with nearest neighbour queries with permutation spectra
+Program with faulty versions from the Siemens suite: tcas
+
+
+
+Program version: 1
+
+Actual faulty lines:
+ Number  Code                                                                           
++-------+-------------------------------------------------------------------------------+
+ 75      result = !(Own_Below_Threat()) || ((Own_Below_Threat()) && (!(Down_Separation >
+
+Suspicious lines (report 1):
+ Number  Code                                                                           
++-------+-------------------------------------------------------------------------------+
+ 107     bool Own_Above_Threat()
+ 109     return (Other_Tracked_Alt < Own_Tracked_Alt);
+
+
+
+Program version: 2
+
+Actual faulty lines:
+ Number  Code                                                                           
++-------+-------------------------------------------------------------------------------+
+ 63      return (Climb_Inhibit ? Up_Separation + MINSEP /* operand mutation NOZCROSS */ 
+
+No reports were produced
+
+
+
+Program version: 3
+
+Actual faulty lines:
+ Number  Code                                                                           
++-------+-------------------------------------------------------------------------------+
+ 120     intent_not_known = Two_of_Three_Reports_Valid || Other_RAC == NO_INTENT; /* log
+
+No reports were produced
+
+
+
+Program version: 4
+
+Actual faulty lines:
+ Number  Code                                                                           
++-------+-------------------------------------------------------------------------------+
+ 79      result = Own_Above_Threat() && (Cur_Vertical_Sep >= MINSEP) || (Up_Separation >
+
+Suspicious lines (report 1):
+ Number  Code                                                                           
++-------+-------------------------------------------------------------------------------+
+ 134     alt_sep = UPWARD_RA;
+ 135     else if (need_downward_RA)
+ 136     alt_sep = DOWNWARD_RA;
+
+
+
+Program version: 5
+
+Actual faulty lines:
+ Number  Code                                                                           
++-------+-------------------------------------------------------------------------------+
+ 118     enabled = High_Confidence && (Own_Tracked_Alt_Rate <= OLEV); /* && (Cur_Vertica
+
+Suspicious lines (report 1):
+ Number  Code                                                                           
++-------+-------------------------------------------------------------------------------+
+ 56      int ALIM ()
+ 58      return Positive_RA_Alt_Thresh[Alt_Layer_Value];
+
+Suspicious lines (report 2):
+ Number  Code                                                                           
++-------+-------------------------------------------------------------------------------+
+ 136     alt_sep = DOWNWARD_RA;
+ 138     alt_sep = UNRESOLVED;
+
+
+
+Program version: 6
+
+Actual faulty lines:
+ Number  Code                                                                           
++-------+-------------------------------------------------------------------------------+
+ 104     return (Own_Tracked_Alt <= Other_Tracked_Alt); /* operator mutation */
+
+No reports were produced
+
+
+
+Program version: 7
+
+Actual faulty lines:
+ Number  Code                                                                           
++-------+-------------------------------------------------------------------------------+
+ 51      Positive_RA_Alt_Thresh[1] = 550; /* constant mutation */
+
+No reports were produced
+
+
+
+Program version: 8
+
+Actual faulty lines:
+ Number  Code                                                                           
++-------+-------------------------------------------------------------------------------+
+ 53      Positive_RA_Alt_Thresh[3] = 700; /* constant mutation */
+
+No reports were produced
+
+
+
+Program version: 9
+
+Actual faulty lines:
+ Number  Code                                                                           
++-------+-------------------------------------------------------------------------------+
+ 89      upward_preferred = Inhibit_Biased_Climb() >= Down_Separation; /* operator mutat
+
+Suspicious lines (report 1):
+ Number  Code                                                                           
++-------+-------------------------------------------------------------------------------+
+ 101     bool Own_Below_Threat()
+ 103     return (Own_Tracked_Alt < Other_Tracked_Alt);
+
+
+
+Program version: 10
+
+Actual faulty lines:
+ Number  Code                                                                           
++-------+-------------------------------------------------------------------------------+
+ 105     return (Own_Tracked_Alt <= Other_Tracked_Alt);
+ 111     return (Other_Tracked_Alt <= Own_Tracked_Alt);
+
+Suspicious lines (report 1):
+ Number  Code                                                                           
++-------+-------------------------------------------------------------------------------+
+ 138     alt_sep = DOWNWARD_RA;
+ 140     alt_sep = UNRESOLVED;
+
+
+
+Program version: 11
+
+Actual faulty lines:
+ Number  Code                                                                           
++-------+-------------------------------------------------------------------------------+
+ 106     return (Own_Tracked_Alt <= Other_Tracked_Alt);
+ 113     return (Other_Tracked_Alt <= Own_Tracked_Alt);
+ 136     if (need_upward_RA)
+
+Suspicious lines (report 1):
+ Number  Code                                                                           
++-------+-------------------------------------------------------------------------------+
+ 142     alt_sep = DOWNWARD_RA;
+ 144     alt_sep = UNRESOLVED;
+
+
+
+Program version: 12
+
+Actual faulty lines:
+ Number  Code                                                                           
++-------+-------------------------------------------------------------------------------+
+ 118     enabled = High_Confidence || (Own_Tracked_Alt_Rate <= OLEV) && (Cur_Vertical_Se
+
+Suspicious lines (report 1):
+ Number  Code                                                                           
++-------+-------------------------------------------------------------------------------+
+ 56      int ALIM ()
+ 58      return Positive_RA_Alt_Thresh[Alt_Layer_Value];
+
+Suspicious lines (report 2):
+ Number  Code                                                                           
++-------+-------------------------------------------------------------------------------+
+ 136     alt_sep = DOWNWARD_RA;
+ 138     alt_sep = UNRESOLVED;
+
+
+
+Program version: 13
+
+Actual faulty lines:
+ Number  Code                                                                           
++-------+-------------------------------------------------------------------------------+
+ 10      #define OLEV       600+100		/* in feets/minute */
+
+No reports were produced
+
+
+
+Program version: 14
+
+Actual faulty lines:
+ Number  Code                                                                           
++-------+-------------------------------------------------------------------------------+
+ 11      #define MAXALTDIFF 600+50		/* max altitude difference in feet */
+
+No reports were produced
+
+
+
+Program version: 15
+
+Actual faulty lines:
+ Number  Code                                                                           
++-------+-------------------------------------------------------------------------------+
+ 12      #define MINSEP     300+350          /* min separation in feet */
+ 118     enabled = High_Confidence && (Own_Tracked_Alt_Rate <= OLEV);
+
+No reports were produced
+
+
+
+Program version: 16
+
+Actual faulty lines:
+ Number  Code                                                                           
++-------+-------------------------------------------------------------------------------+
+ 50      Positive_RA_Alt_Thresh[0] = 400+1;
+
+No reports were produced
+
+
+
+Program version: 17
+
+Actual faulty lines:
+ Number  Code                                                                           
++-------+-------------------------------------------------------------------------------+
+ 51      Positive_RA_Alt_Thresh[1] = 500+1;
+
+No reports were produced
+
+
+
+Program version: 18
+
+Actual faulty lines:
+ Number  Code                                                                           
++-------+-------------------------------------------------------------------------------+
+ 52      Positive_RA_Alt_Thresh[2] = 640+50;
+
+No reports were produced
+
+
+
+Program version: 19
+
+Actual faulty lines:
+ Number  Code                                                                           
++-------+-------------------------------------------------------------------------------+
+ 53      Positive_RA_Alt_Thresh[3] = 740+20;
+
+No reports were produced
+
+
+
+Program version: 20
+
+Actual faulty lines:
+ Number  Code                                                                           
++-------+-------------------------------------------------------------------------------+
+ 72      upward_preferred = Inhibit_Biased_Climb() >= Down_Separation;
+
+Suspicious lines (report 1):
+ Number  Code                                                                           
++-------+-------------------------------------------------------------------------------+
+ 107     bool Own_Above_Threat()
+ 109     return (Other_Tracked_Alt < Own_Tracked_Alt);
+ 134     alt_sep = UPWARD_RA;
+ 135     else if (need_downward_RA)
+ 136     alt_sep = DOWNWARD_RA;
+
+
+
+Program version: 21
+
+Actual faulty lines:
+ Number  Code                                                                           
++-------+-------------------------------------------------------------------------------+
+ 72      upward_preferred = (Up_Separation + NOZCROSS) > Down_Separation;
+
+Suspicious lines (report 1):
+ Number  Code                                                                           
++-------+-------------------------------------------------------------------------------+
+ 107     bool Own_Above_Threat()
+ 109     return (Other_Tracked_Alt < Own_Tracked_Alt);
+ 134     alt_sep = UPWARD_RA;
+ 135     else if (need_downward_RA)
+ 136     alt_sep = DOWNWARD_RA;
+
+
+
+Program version: 22
+
+Actual faulty lines:
+ Number  Code                                                                           
++-------+-------------------------------------------------------------------------------+
+ 72      upward_preferred = Up_Separation > Down_Separation;
+
+No reports were produced
+
+
+
+Program version: 23
+
+Actual faulty lines:
+ Number  Code                                                                           
++-------+-------------------------------------------------------------------------------+
+ 90      upward_preferred = (Up_Separation + NOZCROSS) > Down_Separation;
+
+Suspicious lines (report 1):
+ Number  Code                                                                           
++-------+-------------------------------------------------------------------------------+
+ 102     bool Own_Below_Threat()
+ 104     return (Own_Tracked_Alt < Other_Tracked_Alt);
+
+
+
+Program version: 24
+
+Actual faulty lines:
+ Number  Code                                                                           
++-------+-------------------------------------------------------------------------------+
+ 90      upward_preferred = Up_Separation > Down_Separation;
+
+Suspicious lines (report 1):
+ Number  Code                                                                           
++-------+-------------------------------------------------------------------------------+
+ 136     alt_sep = DOWNWARD_RA;
+ 138     alt_sep = UNRESOLVED;
+
+
+
+Program version: 25
+
+Actual faulty lines:
+ Number  Code                                                                           
++-------+-------------------------------------------------------------------------------+
+ 97      result = !(Own_Above_Threat()) || ((Own_Above_Threat()) && (Up_Separation > ALI
+
+Suspicious lines (report 1):
+ Number  Code                                                                           
++-------+-------------------------------------------------------------------------------+
+ 136     alt_sep = DOWNWARD_RA;
+ 138     alt_sep = UNRESOLVED;
+
+
+
+Program version: 26
+
+Actual faulty lines:
+ Number  Code                                                                           
++-------+-------------------------------------------------------------------------------+
+ 118     enabled = High_Confidence && (Cur_Vertical_Sep > MAXALTDIFF);
+
+No reports were produced
+
+
+
+Program version: 27
+
+Actual faulty lines:
+ Number  Code                                                                           
++-------+-------------------------------------------------------------------------------+
+ 118     enabled = High_Confidence && (Own_Tracked_Alt_Rate <= OLEV) ;
+
+Suspicious lines (report 1):
+ Number  Code                                                                           
++-------+-------------------------------------------------------------------------------+
+ 56      int ALIM ()
+ 58      return Positive_RA_Alt_Thresh[Alt_Layer_Value];
+
+Suspicious lines (report 2):
+ Number  Code                                                                           
++-------+-------------------------------------------------------------------------------+
+ 136     alt_sep = DOWNWARD_RA;
+ 138     alt_sep = UNRESOLVED;
+
+
+
+Program version: 28
+
+Actual faulty lines:
+ Number  Code                                                                           
++-------+-------------------------------------------------------------------------------+
+ 63      return ((Climb_Inhibit == 0) ? Up_Separation + NOZCROSS : Up_Separation);
+
+No reports were produced
+
+
+
+Program version: 29
+
+Actual faulty lines:
+ Number  Code                                                                           
++-------+-------------------------------------------------------------------------------+
+ 63      return (Up_Separation);
+
+No reports were produced
+
+
+
+Program version: 30
+
+Actual faulty lines:
+ Number  Code                                                                           
++-------+-------------------------------------------------------------------------------+
+ 63      return (Up_Separation + NOZCROSS);
+
+No reports were produced
+
+
+
+Program version: 31
+
+Actual faulty lines:
+ Number  Code                                                                           
++-------+-------------------------------------------------------------------------------+
+ 76      result = result && (Own_Tracked_Alt <= Other_Tracked_Alt);
+ 81      result = result && (Own_Tracked_Alt < Other_Tracked_Alt);
+ 128     need_upward_RA = Non_Crossing_Biased_Climb();
+
+Suspicious lines (report 1):
+ Number  Code                                                                           
++-------+-------------------------------------------------------------------------------+
+ 56      int ALIM ()
+ 58      return Positive_RA_Alt_Thresh[Alt_Layer_Value];
+
+
+
+Program version: 32
+
+Actual faulty lines:
+ Number  Code                                                                           
++-------+-------------------------------------------------------------------------------+
+ 94      result = result && (Other_Tracked_Alt < Own_Tracked_Alt);
+ 99      result = result && (Other_Tracked_Alt <= Own_Tracked_Alt);
+ 129     need_downward_RA = Non_Crossing_Biased_Descend();
+
+Suspicious lines (report 1):
+ Number  Code                                                                           
++-------+-------------------------------------------------------------------------------+
+ 138     alt_sep = DOWNWARD_RA;
+ 140     alt_sep = UNRESOLVED;
+
+
+
+Program version: 33
+
+Actual faulty lines:
+ Number  Code                                                                           
++-------+-------------------------------------------------------------------------------+
+ 50      Positive_RA_Alt_Thresh[1] = 400;
+ 51      Positive_RA_Alt_Thresh[2] = 500;
+ 52      Positive_RA_Alt_Thresh[3] = 640;
+ 53      Positive_RA_Alt_Thresh[4] = 740;
+
+No reports were produced
+
+
+
+Program version: 34
+
+Actual faulty lines:
+ Number  Code                                                                           
++-------+-------------------------------------------------------------------------------+
+ 124     if (enabled && tcas_equipped && intent_not_known || !tcas_equipped)
+
+Suspicious lines (report 1):
+ Number  Code                                                                           
++-------+-------------------------------------------------------------------------------+
+ 56      int ALIM ()
+ 58      return Positive_RA_Alt_Thresh[Alt_Layer_Value];
+
+Suspicious lines (report 2):
+ Number  Code                                                                           
++-------+-------------------------------------------------------------------------------+
+ 136     alt_sep = DOWNWARD_RA;
+ 138     alt_sep = UNRESOLVED;
+
+
+
+Program version: 35
+
+Actual faulty lines:
+ Number  Code                                                                           
++-------+-------------------------------------------------------------------------------+
+ 63      return (Climb_Inhibit ? Up_Separation : Up_Separation + NOZCROSS);
+
+No reports were produced
+
+
+
+Program version: 36
+
+Actual faulty lines:
+ Number  Code                                                                           
++-------+-------------------------------------------------------------------------------+
+ 46      #define DOWNWARD_RA 1
+
+Suspicious lines (report 1):
+ Number  Code                                                                           
++-------+-------------------------------------------------------------------------------+
+ 102     bool Own_Below_Threat()
+ 104     return (Own_Tracked_Alt < Other_Tracked_Alt);
+ 136     alt_sep = DOWNWARD_RA;
+ 138     alt_sep = UNRESOLVED;
+
+
+
+Program version: 37
+
+Actual faulty lines:
+ Number  Code                                                                           
++-------+-------------------------------------------------------------------------------+
+ 58      return Positive_RA_Alt_Thresh[0];
+
+No reports were produced
+
+
+
+Program version: 38
+
+Actual faulty lines:
+ Number  Code                                                                           
++-------+-------------------------------------------------------------------------------+
+ 27      int Positive_RA_Alt_Thresh[3];
+
+No reports were produced
+
+
+
+Program version: 39
+
+Actual faulty lines:
+ Number  Code                                                                           
++-------+-------------------------------------------------------------------------------+
+ 97      result = !(Own_Above_Threat()) || ((Own_Above_Threat()) && (Up_Separation > ALI
+
+Suspicious lines (report 1):
+ Number  Code                                                                           
++-------+-------------------------------------------------------------------------------+
+ 136     alt_sep = DOWNWARD_RA;
+ 138     alt_sep = UNRESOLVED;
+
+
+
+Program version: 40
+
+Actual faulty lines:
+ Number  Code                                                                           
++-------+-------------------------------------------------------------------------------+
+ 75      result = ((Own_Below_Threat()) && (!(Down_Separation >= ALIM())));
+ 126     need_upward_RA = Non_Crossing_Biased_Climb();
+
+Suspicious lines (report 1):
+ Number  Code                                                                           
++-------+-------------------------------------------------------------------------------+
+ 132     alt_sep = UNRESOLVED;
+ 133     else if (need_upward_RA)
+ 135     else if (need_downward_RA)
+ 138     alt_sep = UNRESOLVED;
+
+
+
+Program version: 41
+
+Actual faulty lines:
+ Number  Code                                                                           
++-------+-------------------------------------------------------------------------------+
+ 79      result = (Cur_Vertical_Sep >= MINSEP) && (Up_Separation >= ALIM());
+
+Suspicious lines (report 1):
+ Number  Code                                                                           
++-------+-------------------------------------------------------------------------------+
+ 56      int ALIM ()
+ 58      return Positive_RA_Alt_Thresh[Alt_Layer_Value];
+ 134     alt_sep = UPWARD_RA;
+ 135     else if (need_downward_RA)
+ 136     alt_sep = DOWNWARD_RA;
+
+
+
