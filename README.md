@@ -27,9 +27,7 @@ Contents:
 
 # Project dependencies
 
-For correct work and compilation of the program requirements are:
-* Windows 10 (compatibility with other versions are not guaranteed);
-* .NET 6.0 (https://dotnet.microsoft.com//) is required.
+For correct work and compilation of the program .NET 6.0 (https://dotnet.microsoft.com//) is required.
 
 # Fault localization startup
 
