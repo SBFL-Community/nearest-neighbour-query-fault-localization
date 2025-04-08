@@ -29,7 +29,7 @@ Contents:
 
 For correct work and compilation of the program requirements are:
 * Windows 10 (compatibility with other versions are not guaranteed);
-* .NET 6.0 (https://dotnet.microsoft.com//) is required.
+* .NET 6.0 (https://dotnet.microsoft.com//).
 
 # Fault localization startup
 
