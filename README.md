@@ -20,10 +20,12 @@ The project is completed during the preparation of Egor O. Korovin work under Te
 # Project structure
 
 Contents:
-* Siemens suite: original "tcas" program, its versions, and test suite;
+* Siemens suite: original "tcas" program, its versions, and test suite*;
 * FaultLocalizationNN: a C# program that implements nearest neighbour query fault localzation;
 * Results: folder for the results of the fault localiztion;
 * runfl.bat: batch file for starting the fault localization program on "tcas" program and writing the results into Results folder.
+
+\* Available only to [SBFL-Community](https://github.com/SBFL-Community) organization memebers.
 
 # Project dependencies
 
