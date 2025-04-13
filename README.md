@@ -25,7 +25,7 @@ Contents:
 * Results: folder for the results of the fault localiztion;
 * runfl.bat: batch file for starting the fault localization program on "tcas" program and writing the results into Results folder.
 
-\* Available only to [SBFL-Community](https://github.com/SBFL-Community) organization memebers.
+\* Available only to [SBFL-Community](https://github.com/SBFL-Community) organization members.
 
 # Project dependencies
 
