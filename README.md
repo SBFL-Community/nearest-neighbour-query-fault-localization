@@ -19,7 +19,6 @@ The project is completed during the preparation of Egor O. Korovin work under Te
 
 # Project structure
 
-Contents:
 * Siemens suite: original "tcas" program, its versions, and test suite; not publicly available*;
 * FaultLocalizationNN: a C# program that implements nearest neighbour query fault localzation;
 * Results: folder for the results of the fault localiztion;
